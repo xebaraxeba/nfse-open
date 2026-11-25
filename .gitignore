@@ -1,0 +1,32 @@
+# Dependências e build
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.pnpm-store/
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+*.log
+
+# Sistema e editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Segredos: NUNCA versionar certificado, senhas ou variáveis de ambiente
+*.pfx
+*.p12
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+
+# Banco local
+*.sqlite
+*.sqlite3
+*.db
